@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_WHITE, COLOR_BLACK, CHECKBOX_SIZE, CHECKBOX_INNER_SIZE, CHECKBOX_OFFSET
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class Checkbox(BaseElement):
     """Чекбокс"""

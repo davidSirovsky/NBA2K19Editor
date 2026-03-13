@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_WHITE, COLOR_BLACK, COLOR_GRAY, FONT_STANDARD, FONT_SIZE_MIDDLE, TEXT_INPUT_HEIGHT
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class TextInput(BaseElement):
     """Поле ввода текста"""
@@ -167,7 +167,7 @@ class TextInput(BaseElement):
     
     def show_context_menu(self, mouse_pos):
         """Показывает контекстное меню"""
-        from context_menu import ContextMenu
+        from classes.context_menu import ContextMenu
         self.context_menu = ContextMenu(mouse_pos[0], mouse_pos[1], self)
         self.context_menu.set_enabled(True)
         self.context_menu.set_visible(True)

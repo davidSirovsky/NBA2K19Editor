@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_WHITE, COLOR_BLACK, COLOR_GRAY, FONT_STANDARD, FONT_SIZE_BIG, BUTTON_MARGIN_DEFAULT
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class TextButton(BaseElement):
     """Кнопка с текстом"""

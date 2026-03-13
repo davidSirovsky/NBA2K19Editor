@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_WHITE, COLOR_BLACK, COLOR_GRAY, FONT_STANDARD, FONT_SIZE_MIDDLE
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class ContextMenu(BaseElement):
     """Контекстное меню для поля ввода"""

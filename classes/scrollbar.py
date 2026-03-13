@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_GRAY, SCROLLBAR_BORDER_SIZE, SCROLLBAR_DECOR_OFFSET, SCROLLBAR_CIRCLE_DIAMETER, SCROLLBAR_MIN_LENGTH
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class Scrollbar(BaseElement):
     """Полоса прокрутки"""

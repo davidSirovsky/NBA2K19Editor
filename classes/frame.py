@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_WHITE, COLOR_BLACK
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class Frame(BaseElement):
     """Фрейм с обрезкой содержимого по границам"""

@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_BLACK, COLOR_GRAY, COPY_DNA_BUTTON_WIDTH, COPY_DNA_BUTTON_HEIGHT, COPY_DNA_LINE_THICKNESS, COPY_DNA_LINE_SPACING
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class CopyDNAButton(BaseElement):
     """Кнопка Copy DNA"""

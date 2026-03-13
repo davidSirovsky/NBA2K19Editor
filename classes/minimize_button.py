@@ -1,6 +1,6 @@
 import pygame
 from constants import COLOR_BLACK, COLOR_GRAY, BUTTON_MINIMIZE_SIZE
-from base_element import BaseElement
+from classes.base_element import BaseElement
 
 class MinimizeButton(BaseElement):
     """Кнопка сворачивания окна"""
