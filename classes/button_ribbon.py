@@ -1,7 +1,7 @@
 import pygame
 from constants import BUTTON_RIBBON_NAMES, FONT_SIZE_BIG, BUTTON_MARGIN_DEFAULT
-from classes.frame import Frame
-from classes.button import TextButton
+from frame import Frame
+from button import TextButton
 
 class ButtonRibbon(Frame):
     """Лента кнопок с горизонтальной прокруткой"""

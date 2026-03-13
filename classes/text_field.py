@@ -1,6 +1,6 @@
 import pygame
-from constants import COLOR_BLACK, FONT_STANDARD, FONT_SIZE_MIDDLE, TEXT_FIELD_SIZE
-from classes.frame import Frame
+from constants import COLOR_BLACK, FONT_STANDARD, FONT_SIZE_MIDDLE, TEXT_FIELD_SIZE, COLOR_WHITE
+from frame import Frame
 
 class TextField(Frame):
     """Текстовое поле для отображения результатов поиска"""
